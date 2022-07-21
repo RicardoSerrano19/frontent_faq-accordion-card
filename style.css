@@ -64,11 +64,13 @@ body{
 .faq__content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 2rem;
 }
 
 .faq__content__title{
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .faq__content__details details{

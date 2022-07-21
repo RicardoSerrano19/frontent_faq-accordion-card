@@ -74,14 +74,14 @@ body{
 .faq__content__details details{
     width: 80%;
     padding: 1rem 0;
-    border-bottom: 1px solid var(--very-dark-desaturated-blue);
+    border-bottom: 1px solid var(--dark-grayish-blue);
 }
 
 .faq__content__details summary{
     list-style: none;
     position: relative;
     padding-bottom: 0rem;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1rem;
     color: var(--very-dark-desaturated-blue);
 }
@@ -101,6 +101,7 @@ body{
 
 details[open] > summary{
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 details[open] > summary::after{

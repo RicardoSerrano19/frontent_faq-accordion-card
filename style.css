@@ -86,6 +86,11 @@ body{
     color: var(--very-dark-desaturated-blue);
 }
 
+.faq__content__details summary:hover{
+    color: var(--soft-red);
+    cursor: pointer;
+}
+
 .faq__content__details summary::after{
     content: url('./images/icon-arrow-down.svg');
     position: absolute;

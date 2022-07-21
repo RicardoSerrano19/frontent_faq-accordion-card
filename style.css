@@ -11,6 +11,8 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -21,4 +23,5 @@ body{
     align-items: center;
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(180deg, var(--soft-violet) 50%, var(--soft-blue) 100%);    
 }
